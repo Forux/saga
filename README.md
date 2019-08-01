@@ -1,17 +1,26 @@
-# Saga
-Saga it is a website about making politics better
+# saga (saga)
 
-## Todo:
-- [ ] Template of home page
-- [ ] Template of new mini-card
-- [ ] Template of news page
-- [ ] Possibility to add news
-- [ ] Possibility to subscribe fo news updates
-- [ ] Accounts database
-- [ ] Register/Login system
-- [ ] Home page most popular news system
+saga is a website about less wrong politics
 
-## Made with
-* [Quasar](https://quasar.dev)
-* [Express.js](https://expressjs.com/)
-* [Node.js](https://nodejs.org/)
+## Install the dependencies
+```bash
+npm install
+```
+
+### Start the app in development mode (hot-code reloading, error reporting, etc.)
+```bash
+quasar dev
+```
+
+### Lint the files
+```bash
+npm run lint
+```
+
+### Build the app for production
+```bash
+quasar build
+```
+
+### Customize the configuration
+See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
